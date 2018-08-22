@@ -28,7 +28,8 @@ except:
 #
 
 # Training related flags
-flags.DEFINE_integer("N_CLASSES", default=200,
+flags.DEFINE_integer("N_CLASSES",
+                     200,
                      help="Number of prediction classes in the model")
 flags.DEFINE_string("train_data_dir",
                     get_data_path(
