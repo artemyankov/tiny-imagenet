@@ -30,7 +30,7 @@ except:
 # Training related flags
 flags.DEFINE_integer("N_CLASSES",
                      200,
-                     help="Number of prediction classes in the model")
+                     "Number of prediction classes in the model")
 flags.DEFINE_string("train_data_dir",
                     get_data_path(
                         dataset_name = 'artem/artem-tiny-imagenet',
